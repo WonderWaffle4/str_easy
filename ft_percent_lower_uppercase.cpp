@@ -1,6 +1,6 @@
 #include "str_easy.h"
 
-double ft_percent_lower_uppercase(string str){
+double itc_percent_lower_uppercase(string str){
     double stroch = 0;
     double prop = 0;
     for(int i = 0; i < ft_len(str); i++){
