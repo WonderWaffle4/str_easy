@@ -1,6 +1,6 @@
 #include "str_easy.h"
 
-string ft_reverse_str(string str){
+string itc_reverse_str(string str){
     string newstr = "";
     for(int i = ft_len(str) - 1; i >= 0; i--){
         newstr += str[i];
