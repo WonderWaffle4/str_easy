@@ -1,6 +1,6 @@
 #include "str_easy.h"
 
-string ft_cmp_str(string str1, string str2, int num){
+string itc_cmp_str(string str1, string str2, int num){
     string newstr = "";
     newstr += ft_slice_str(str1, 0, num);
     newstr += str2;
