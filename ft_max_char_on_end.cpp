@@ -1,6 +1,6 @@
 #include "str_easy.h"
 
-int ft_max_char_on_end(string str){
+int itc_max_char_on_end(string str){
     int kol = 1;
     int maxkol = 0;
     for(int i = 0; i < ft_len(str); i++){
