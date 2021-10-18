@@ -1,6 +1,6 @@
 #include "str_easy.h"
 
-void ft_first_end_three(string str){
+void itc_first_end_three(string str){
     if(ft_len(str) > 5){
         cout << str[0] << endl;
         cout << str[1] << endl;
