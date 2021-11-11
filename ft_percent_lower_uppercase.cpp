@@ -8,5 +8,5 @@ double itc_percent_lower_uppercase(string str){
         if(str[i] >= 97 && str[i] <= 122) stroch++;
     }
     if(stroch == 0) return 1;
-    return prop / stroch;
+    return stroch / prop;
 }
